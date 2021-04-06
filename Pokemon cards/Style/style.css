@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-color: #cfe0e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.container {
+    display: flex;
+    max-width: 1240px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:  0 auto;
+}
+
+.pokemon { 
+    background-color: #87bdd8;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+    margin: 25px 25px;
+    height: 300px;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 3px;
+    
+}
+
+.number {
+    background-color: #6672926c;
+    border-radius: 20px;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.pokemon .img-container {
+    background-color: white;
+    border-radius: 50%;
+    width: 180px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.pokemon .img-container img {
+    max-width: 85%;
+}
+
+.show-pokemons{
+    background-color: #87bdd8;
+    color: black;
+    font-weight: 600;
+    font-size: x-large;
+    border-radius: 10%;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-right: 40px;
+    transition: ease .5s;
+}
+
+.show-pokemons:hover {
+    transition: ease .5s;
+    background-color: #6672926c;
+    color: black;
+    font-weight: 700;
+}
+
+.show-pokemons:focus {
+    outline: 0;
+}
+
+.next-btn {
+    display: none;
+    background-color: #87bdd8;
+    color: black;
+    font-weight: 600;
+    font-size: x-large;
+    border-radius: 10%;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-right: 40px;
+    transition: ease .5s;
+}
+
+.prev-btn {
+    display: none;
+    background-color: #87bdd8;
+    color: black;
+    font-weight: 600;
+    font-size: x-large;
+    border-radius: 10%;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    transition: ease .5s;
+}
+
+.next-btn:focus {
+    outline: 0;
+}
+
+.prev-btn:focus {
+    outline: 0;
+}
+
+.next-btn:hover {
+    transition: ease .5s;
+    background-color: #6672926c;
+    color: black;
+    font-weight: 700;
+}
+
+.prev-btn:hover {
+    transition: ease .5s;
+    background-color: #6672926c;
+    color: black;
+    font-weight: 700;
+}
